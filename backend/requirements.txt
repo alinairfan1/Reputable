@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+joblib
+scikit-learn==1.8.0  # pinned to match the version github_quality_rf_model.pkl was trained/pickled with
+shap
+pandas
+PyGithub
+python-dotenv
+supabase

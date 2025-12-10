@@ -1,0 +1,4 @@
+requests
+pandas
+scikit-learn==1.8.0  # keep in sync with backend/requirements.txt so a retrained model stays pickle-compatible
+python-dotenv

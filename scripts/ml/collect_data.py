@@ -16,6 +16,9 @@ from github import Github, Auth, GithubException
 from github.GithubException import RateLimitExceededException
 
 # Import the SINGLE SOURCE OF TRUTH for feature extraction
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../.."))
 from feature_config import extract_features_from_pygithub
 
 # ── Auth ──────────────────────────────────────────────────────────────────

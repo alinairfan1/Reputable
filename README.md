@@ -1,7 +1,6 @@
 <div align="center">
 
-# 🔮 Reputable
-**GitHub Repo Quality Predictor**
+# Reputable - GitHub Repo Quality Predictor
 
 [![CI Pipeline](https://github.com/alinairfan1/Reputable/actions/workflows/ci.yml/badge.svg)](https://github.com/alinairfan1/Reputable/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

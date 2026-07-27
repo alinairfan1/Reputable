@@ -29,5 +29,12 @@ frontend/dist-ssr/
 !.vscode/extensions.json
 .idea/
 
-# Old/stale data snapshots
-raw_github_data_old.csv
+# Data and ML Artifacts
+data/
+*.csv
+*.pkl
+!backend/github_quality_rf_model.pkl
+
+# Git hooks
+.githooks/
+scripts/ai_commit.py

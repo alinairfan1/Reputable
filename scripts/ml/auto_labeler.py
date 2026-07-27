@@ -16,6 +16,9 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../.."))
 from feature_config import FEATURE_ORDER  # canonical feature list
 
 

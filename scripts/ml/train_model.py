@@ -21,6 +21,9 @@ from sklearn.metrics import (
 )
 from sklearn.model_selection import StratifiedKFold, cross_val_score, train_test_split
 
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../.."))
 from feature_config import FEATURE_ORDER  # canonical feature list — same as inference
 
 # ── Config ────────────────────────────────────────────────────────────────

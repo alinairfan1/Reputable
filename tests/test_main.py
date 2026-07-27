@@ -4,6 +4,9 @@ from fastapi import HTTPException
 from fastapi.testclient import TestClient
 from github.GithubException import UnknownObjectException
 
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../backend"))
 import main
 from feature_config import FEATURE_ORDER
 from tests.fakes import FakeRepo

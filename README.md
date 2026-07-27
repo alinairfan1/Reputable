@@ -10,6 +10,8 @@
 
 Paste any public GitHub URL and get back an ML-driven quality assessment: a `Beginner`, `Intermediate`, or `Production Ready` label, a 0-100 score, a per-repo SHAP explanation of *why* the model predicted what it did, and concrete suggestions for improvement. 
 
+![Reputable Demo](./docs/images/tool-working.gif)
+
 [Architecture](#-architecture) •
 [ML Pipeline](#-how-the-model-works) •
 [Quickstart](#-running-locally) •
